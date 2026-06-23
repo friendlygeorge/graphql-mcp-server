@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/%40supernova123/graphql-mcp-server)](https://www.npmjs.com/package/@supernova123/graphql-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Glama](https://glama.ai/mcp/servers/friendlygeorge/graphql-mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/friendlygeorge/graphql-mcp-server)
 
 MCP server for GraphQL — schema introspection, auto-generated tools, query/mutation execution for Claude, Cursor, and AI agents.
 
