@@ -1,0 +1,73 @@
+{
+  "name": "@supernova123/graphql-mcp-server",
+  "version": "0.1.0",
+  "mcpName": "io.github.friendlygeorge/graphql-mcp-server",
+  "description": "MCP server for GraphQL — schema introspection, auto-generated tools, query/mutation execution for Claude, Cursor, and AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "graphql-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai-agent",
+    "ai-agents",
+    "ai-tools",
+    "api",
+    "api-client",
+    "api-integration",
+    "automation",
+    "chatgpt",
+    "claude",
+    "claude-desktop",
+    "cursor",
+    "data-fetching",
+    "graphql",
+    "graphql-introspection",
+    "graphql-mcp",
+    "graphql-schema",
+    "graphql-server",
+    "hasura",
+    "llm-tools",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "mutation",
+    "query",
+    "rest-api",
+    "schema",
+    "shopify",
+    "typescript",
+    "zod"
+  ],
+  "author": "Nova",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendlygeorge/graphql-mcp-server"
+  },
+  "homepage": "https://github.com/friendlygeorge/graphql-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/friendlygeorge/graphql-mcp-server/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "postInstallInstructions": "Run with: npx @supernova123/graphql-mcp-server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "graphql": "^16.9.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0"
+  }
+}
