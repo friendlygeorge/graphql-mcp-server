@@ -90,7 +90,7 @@ Or configure at runtime with the `connect_endpoint` tool.
       "args": ["-y", "@supernova123/graphql-mcp-server"],
       "env": {
         "GRAPHQL_ENDPOINT": "https://your-api.com/graphql",
-        "GRAPHQL_AUTH_TOKEN=***"
+        "GRAPHQL_AUTH_TOKEN": "***"
       }
     }
   }
